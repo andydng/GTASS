@@ -1,0 +1,44 @@
+.nav-list 
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav-link 
+{
+    border-right: 1px solid #bbb;
+    float: left;
+}
+
+.nav-link:last-child
+{
+    border-right: none;
+}
+
+.nav-link-right 
+{
+    float: right;
+    border-left: 1px solid #bbb;
+
+}
+
+.nav-link-active
+{
+    background-color: #7ac5cd;
+}
+
+.nav-item
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-item:hover {
+    background-color: #111;
+}
